@@ -265,6 +265,12 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+.about {
+  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 40px;
+	font-size: 19px;
+	text-align: justify;
+}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -288,12 +294,12 @@ header .intro-text .intro-heading {
     line-height: 75px;
     /*margin-bottom: 50px;*/
   }
-}
-.about {
-  font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding: 40px;
-	font-size: 19px;
-	text-align: justify;
+  .about {
+    font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 1em 10em;
+  	font-size: 19px;
+  	text-align: justify;
+  }
 }
 .about-credit {
   font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
