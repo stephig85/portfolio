@@ -9,6 +9,7 @@ body {
 }
 .text-muted {
   color: #777777;
+  padding: 0 35px;
 }
 .text-primary {
   color: #fed136;
@@ -28,7 +29,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #41C6DB;
 }
 a:hover,
 a:focus,
@@ -102,12 +103,12 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   background-color: #000000;
-  border-color: #fed136;
+  border-color: #41C6DB;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 40px;
 }
 .btn-xl:hover,
@@ -151,8 +152,9 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #41C6DB;
   font-family: 'Wire One', "Helvetica Neue", Helvetica, Arial;
+  letter-spacing: 1px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -164,8 +166,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #000;
+  border-color: #41C6DB;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -190,12 +192,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #41C6DB;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #fec503;
+}
+.fa-inverse {
+    color: #fff;
+    background-color: #41C6DB;
+    border-radius: 50%;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -240,16 +247,17 @@ header {
 header .intro-text {
   padding: 100px 50px 50px 50px;
 }
-header .intro-text .intro-lead-in {
+/*header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
-}
+}*/
 header .intro-text .intro-heading {
   font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 3px;
   background-color: rgba(0,0,0,.7);
   border-radius: 5px;
   font-weight: 600;
@@ -262,20 +270,21 @@ header .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  header .intro-text .intro-lead-in {
+  /*header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
-  }
+  }*/
   header .intro-text .intro-heading {
     font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
+    letter-spacing: 3px;
     background-color: rgba(0,0,0,.7);
     border-radius: 5px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 75px;
     padding: 10px;
     /*margin-bottom: 50px;*/
@@ -294,7 +303,7 @@ header .intro-text .intro-heading {
 	text-align: justify;
 }
 .moto {
-  max-width: 400px;
+  max-width: 350px;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -303,9 +312,9 @@ section {
 }
 section h2.section-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -335,7 +344,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #41C6DB;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -482,7 +491,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #41C6DB;
 }
 .btn:focus,
 .btn:active,
