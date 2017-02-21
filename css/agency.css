@@ -226,7 +226,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-color: #292F36;*/
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -276,9 +275,10 @@ header .intro-text .intro-heading {
     background-color: rgba(0,0,0,.7);
     border-radius: 5px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 75px;
-    margin-bottom: 50px;
+    padding: 10px;
+    /*margin-bottom: 50px;*/
   }
 }
 .about {
