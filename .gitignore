@@ -1,5 +1,8 @@
 node_modules
 notes.txt
+package.json
 
 scss
 less
+LICENSE
+gulpfile.js
