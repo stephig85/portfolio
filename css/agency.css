@@ -36,6 +36,7 @@ a:focus,
 a:active,
 a.active {
   color: #41C6DB;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -296,7 +297,7 @@ header .intro-text .intro-heading {
   }
   .about {
     font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 1em 10em;
+    padding: 3em 10em;
   	font-size: 19px;
   	text-align: justify;
   }
